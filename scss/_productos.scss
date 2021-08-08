@@ -1,0 +1,25 @@
+.productos__Row{
+	display: flex;
+	flex-wrap: wrap;
+	padding: 50px;
+	justify-items: center;
+    align-items: end;
+    align-content: center;
+	justify-content: center;
+}
+
+.productos__Column{
+	max-width: 33.3%;
+	padding: 20px;
+
+}
+
+.productos__Column img{
+	vertical-align: middle;
+	width: 100%;
+}
+
+.productos__img{
+    width: 350px;
+    height: 280px;
+}

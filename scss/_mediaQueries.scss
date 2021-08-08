@@ -1,0 +1,53 @@
+
+@media screen and (max-width: 800px){
+  .productos__Column{
+    flex: 50%;
+    max-width: 100%;
+  }
+  .footer__container-body{
+    flex-wrap: wrap;
+  }
+  .footer__column1{
+    max-width: 100%;
+  }
+
+  .footer__column2,
+  .footer__column3{
+    margin-top: 40px;
+  }
+
+  .main__videos{
+  flex-wrap: wrap;
+  max-width: 100%;
+  }
+
+}
+
+@media screen and (max-width: 600px){
+  .productos__Column{
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+  }
+  .productos__Row{
+    display: contents;
+
+
+  }
+  .card{
+  margin-left: 0px;
+
+  }
+}
+
+@media screen and (max-width: 400px){
+  .productos__Column{
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+  }
+  .productos__Row{
+    display: contents;
+  }
+
+}
